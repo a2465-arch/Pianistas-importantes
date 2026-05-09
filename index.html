@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony History</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>🎼 Harmony History</h1>
+
+        <p class="subtitulo">
+            Explora la historia de los compositores más importantes
+        </p>
+
+        <div class="buscador">
+
+            <input type="text" id="inputBusqueda"
+                placeholder="Buscar compositor...">
+
+            <button id="btnBuscar">
+                Buscar
+            </button>
+
+            <button id="btnModo">
+                🌙
+            </button>
+
+        </div>
+
+    </header>
+
+    <section class="lista">
+
+        <h2>🎹 Compositores disponibles</h2>
+
+        <ul>
+
+            <li onclick="seleccionarCompositor('mozart')">Mozart</li>
+
+            <li onclick="seleccionarCompositor('beethoven')">Beethoven</li>
+
+            <li onclick="seleccionarCompositor('bach')">Bach</li>
+
+            <li onclick="seleccionarCompositor('chopin')">Chopin</li>
+
+            <li onclick="seleccionarCompositor('vivaldi')">Vivaldi</li>
+
+            <li onclick="seleccionarCompositor('debussy')">Debussy</li>
+
+            <li onclick="seleccionarCompositor('tchaikovsky')">Tchaikovsky</li>
+
+        </ul>
+
+    </section>
+
+    <main>
+
+        <section id="resultado">
+
+        </section>
+
+    </main>
+
+    <footer>
+        Desarrollador: Axel Chávez
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
